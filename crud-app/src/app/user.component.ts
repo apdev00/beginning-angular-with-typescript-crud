@@ -14,5 +14,6 @@ export class UserComponent {
 
   ngOnInit(){
     this.users = this.db.list('/');
+    console.log(this.users);
   }
 }

@@ -9,7 +9,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let user of users | async">
+    <tr *ngFor="let user of users.children | async">
       <td>{{ user.name }}</td>
       <td>{{ user.email }}</td>
       <td>
